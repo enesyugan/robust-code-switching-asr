@@ -1,10 +1,42 @@
-# Interspeech261
-Repository for Anonymous Interspeech 2026 Submission  
+# Robust Code-Switching ASR Adaptation
 
-This repository documents resources used in our anonymous Interspeech 2026 submission, including:
+Official implementation of:
 
-- The LLM prompting strategy for controlled German–English code-switch generation  
-- The annotation guidelines for identifying English code-switches in a German–English dataset  
+> **Adding Robust Code-Switching Capabilities to High Performance Multilingual ASR**
+
+This repository contains the code, prompts, annotation guidelines, and experimental resources accompanying our work on **code-switching automatic speech recognition (ASR)** adaptation for **strong multilingual speech recognition models**.
+
+We investigate how to add robust code-switching capabilities to models such as **Whisper** without degrading existing monolingual performance. Our work focuses on:
+
+- Synthetic code-switching data generation using large language models (LLMs)
+
+- Multilingual text-to-speech (TTS) synthesis and audio stitching
+
+- Bayesian Low-Rank Adaptation (BLoRA) for robust model adaptation
+
+- Preservation of strong multilingual ASR performance
+
+- Evaluation on code-switching and monolingual speech benchmarks
+
+---
+
+## Repository Contents
+
+This repository includes:
+
+- The LLM prompting strategy for controlled German–English code-switch generation
+
+- Annotation guidelines for identifying English code-switches in German–English speech
+
+- Resources used for synthetic code-switching data generation
+
+- Experimental materials accompanying the paper
+
+---
+
+## Keywords
+
+**Code-Switching ASR** • **Multilingual Speech Recognition** • **Whisper** • **Synthetic Data Generation** • **Bayesian LoRA (BLoRA)** • **Speech Foundation Models** • **German-English Code-Switching** • **Multilingual TTS**
 
 ---
 
