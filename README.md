@@ -246,3 +246,19 @@ Not considered code-switching:
 - International symbols  
 - Established loanwords  
 - Etymological citations  
+
+---
+
+## Citation
+
+Please cite the relevant paper:
+
+```bibtex
+
+@article{ugan2025adapting,
+  title={Adapting Language Balance in Code-Switching Speech},
+  author={Ugan, Enes Yavuz and Pham, Ngoc-Quan and Waibel, Alexander},
+  journal={arXiv preprint arXiv:2510.18724},
+  year={2025}
+}
+```
