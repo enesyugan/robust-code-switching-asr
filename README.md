@@ -4,19 +4,23 @@ Official implementation of:
 
 > **Adding Robust Code-Switching Capabilities to High Performance Multilingual ASR**
 
+## Related Repository
+
+The full training and adaptation framework used in our experiments is available in the companion repository:
+
+**[continual-asr](https://github.com/enesyugan/continual-asr)**
+
+That repository contains:
+
+- Whisper continual learning and adaptation code
+- Qwen2-Audio adaptation for code-switching ASR
+- LoRA, Bayesian LoRA (BLoRA), PiSSA, OLoRA, EVA, RS-LoRA, and DoRA
+- Batch ensembles and weight factorization methods
+- Training, decoding, and evaluation pipelines
+
+This repository focuses on the prompting strategies, annotation guidelines, and experimental resources used for code-switching data generation and evaluation.
+
 This repository contains the code, prompts, annotation guidelines, and experimental resources accompanying our work on **code-switching automatic speech recognition (ASR)** adaptation for **strong multilingual speech recognition models**.
-
-We investigate how to add robust code-switching capabilities to models such as **Whisper** without degrading existing monolingual performance. Our work focuses on:
-
-- Synthetic code-switching data generation using large language models (LLMs)
-
-- Multilingual text-to-speech (TTS) synthesis and audio stitching
-
-- Bayesian Low-Rank Adaptation (BLoRA) for robust model adaptation
-
-- Preservation of strong multilingual ASR performance
-
-- Evaluation on code-switching and monolingual speech benchmarks
 
 ---
 
@@ -32,11 +36,9 @@ This repository includes:
 
 - Experimental materials accompanying the paper
 
----
+For model training and adaptation code, see the companion repository:
 
-## Keywords
-
-**Code-Switching ASR** • **Multilingual Speech Recognition** • **Whisper** • **Synthetic Data Generation** • **Bayesian LoRA (BLoRA)** • **Speech Foundation Models** • **German-English Code-Switching** • **Multilingual TTS**
+**[continual-asr](https://github.com/enesyugan/continual-asr)**
 
 ---
 
