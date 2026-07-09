@@ -255,10 +255,10 @@ Please cite the relevant paper:
 
 ```bibtex
 
-@article{ugan2025adapting,
-  title={Adapting Language Balance in Code-Switching Speech},
-  author={Ugan, Enes Yavuz and Pham, Ngoc-Quan and Waibel, Alexander},
-  journal={arXiv preprint arXiv:2510.18724},
-  year={2025}
+@article{ugan2026adding,
+  title={Adding Robust Code-Switching Capabilities to High Performance Multilingual ASR},
+  author={Ugan, Enes Yavuz and Waibel, Alexander},
+  journal={arXiv preprint arXiv:2606.21990},
+  year={2026}
 }
 ```
